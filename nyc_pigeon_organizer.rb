@@ -14,6 +14,6 @@ def nyc_pigeon_organizer(data)
     pigeon_hash[name] = {}
   end
 
-  return pigeon_hash
+  
 
 end
