@@ -22,15 +22,10 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-  pigeon_hash.each do |pig, category_hash|
+# dig into the last level of data hash to itterate through array
+# if each value of array exists in pigeon_hash key
+# then add they key of the array we itterated through to the our pigeon hash based on data[key]value
 
-    i = 0
-    while i < data.values.length
-      data.values[i][cateogry_hash].include?(pig)
-        pigeon_hash[pig][category_hash] <<
-    end
-  end
-  
 
 
   return pigeon_hash
