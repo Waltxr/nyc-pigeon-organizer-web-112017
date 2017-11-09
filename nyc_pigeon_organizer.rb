@@ -17,10 +17,14 @@ def nyc_pigeon_organizer(data)
   pigeon_hash.each do |key, value|
     idx = 0
     while idx < data.keys.length
-      value.merge!(data.keys[idx]=>[])
+      value.merge!(data.keys[idx]=>{})
       idx +=1
     end
   end
-
+  
+  pigeon_hash.each do |pigeon, val|
+    
+  end  
+  
   return pigeon_hash
 end
