@@ -14,6 +14,7 @@ idx = 0
 while idx < data.keys.length
   names.each do |name|
     pigeon_hash[name] = {data.keys[idx]=>[]}
+    idx += 1
   end
 end
   return pigeon_hash
