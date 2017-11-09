@@ -22,11 +22,6 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-# dig into the last level of data hash to itterate through array
-# if each value of array exists in pigeon_hash keys
-# then add they key of the array we itterated through to the our pigeon hash based on data[key]value
-
-
   data.each do |cat, attri|
     data[cat].each do |color, array_of_pigeons|
       i = 0
