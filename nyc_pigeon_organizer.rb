@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-  names = array_of_keys.flatten.uniq
+  return names = array_of_keys.flatten.uniq
 
 
 end
