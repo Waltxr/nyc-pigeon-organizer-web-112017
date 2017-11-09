@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
   array_of_keys = []
   data.each do |key, value|
-    key.each do |attribute, names| 
+    data[key].each do |attribute, names|
     array_of_keys << names
     end
   end
