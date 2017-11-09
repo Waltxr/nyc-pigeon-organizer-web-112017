@@ -22,5 +22,17 @@ def nyc_pigeon_organizer(data)
     end
   end
 
+  pigeon_hash.each do |pig, category_hash|
+    
+    
+    i = 0
+    while i < data.values.length
+      data.values[i][cateogry_hash].include?(pig)
+        pigeon_hash[pig][category_hash] << 
+    end  
+  end
+  
+  
+
   return pigeon_hash
 end
