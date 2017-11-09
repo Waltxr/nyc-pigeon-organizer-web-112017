@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
 
   idx = 0
   while idx < data.keys.length
-  newest_hash = pigeon_hash.each do |key, value|
+  pigeon_hash.each do |key, value|
       value.merge!(data.keys[idx]=>[])
       idx +=1
     end
