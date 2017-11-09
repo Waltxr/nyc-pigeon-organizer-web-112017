@@ -5,5 +5,6 @@ def nyc_pigeon_organizer(data)
     array_of_keys << names
     end
   end
-  return array_of_keys
+
+  array_of_keys.flatten.sort
 end
