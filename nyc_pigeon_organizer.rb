@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
   pigeon_hash = {}
 
   names.each do |name|
-    pigeon_hash[name] = []
+    pigeon_hash[name] = {}
   end
 
   return pigeon_hash
