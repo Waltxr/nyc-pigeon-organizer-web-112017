@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
 
 
   data.each do |cat, attri|
-    data[attri].each do |color, array_of_pigeons|
+    data[cat].each do |color, array_of_pigeons|
       i = 0
       while i < array_of_pigeons.length
         if pigeon_hash.keys.include?(array_of_pigeons[i])
