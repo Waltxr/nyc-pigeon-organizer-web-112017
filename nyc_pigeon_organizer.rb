@@ -26,6 +26,7 @@ def nyc_pigeon_organizer(data)
       data[attribute].each do |color, pigeons|
         if color[pigeons].include?(pigeon)
           pigeon_hash[pigeon][attribute] << color
+        end
       end
   end
 
