@@ -7,5 +7,11 @@ def nyc_pigeon_organizer(data)
   end
 
   return names = array_of_keys.flatten.uniq
+
+  pigeon_hash = {}
+
+  names.each do |name|
+    pigeon_hash[name] = []
+  end
   
 end
