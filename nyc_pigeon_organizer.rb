@@ -1,3 +1,8 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  list = {}
+  data.each do |key, value|
+    if 
+      
+    end
+  end
 end
