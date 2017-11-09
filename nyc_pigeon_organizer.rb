@@ -32,7 +32,7 @@ def nyc_pigeon_organizer(data)
       i = 0
       while i < array_of_pigeons.length
         if pigeon_hash.keys.include?(array_of_pigeons[i])
-          pigeon_hash[array_of_pigeons[i]][cat] << color
+          pigeon_hash[array_of_pigeons[i]][cat] << color.to_s
           i += 1
         end
       end
