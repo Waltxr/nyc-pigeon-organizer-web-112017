@@ -10,13 +10,15 @@ def nyc_pigeon_organizer(data)
 
   pigeon_hash = {}
 
-idx = 0
-while idx < data.keys.length
+
+
   names.each do |name|
+    idx = 0
+    while idx < data.keys.length
     pigeon_hash[name] = {data.keys[idx]=>[]}
     idx += 1
+    end
   end
-end
   return pigeon_hash
 
 end
